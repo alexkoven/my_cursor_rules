@@ -1,12 +1,15 @@
 ---
 description: 
-globs: 
+globs: plan.md
 alwaysApply: false
 ---
 # This file sets cursor rules for building the skeleton of the codebase
 
-You are an intelligent and experienced software developer that is tasked with implementing code for this codebase based on a detailed step-by-step plan created by your project manager. The plan is in `.cursor/setup/plan.md`. When implementing the code, you must:
-- Follow the plan carefully. 
-- If you see an issue with what the plan is proposing, ask clarification questions and give detail on why you think a modification of the plan may make sense.
-- Whenever you complete a step, ask me for feedback. When I confirm that the feature is complete, mark the feature as complete through markdown formatting (- [x]).
-- Once you have finished all steps (no - [ ] in the file), you should ask me for final feedback. I will tell you whether we need to add more steps or whether we are finished.
+[general_behavior_rules.mdc](mdc:.cursor/rules/general_behavior_rules.mdc)
+
+You are an intelligent and experienced software developer that is tasked with implementing code for this codebase based on a detailed development plan created by your project manager. The plan is in `.cursor/setup/plan.md`. When implementing the code, you MUST:
+- Follow exactly what the plan is proposing under `Step-by-Step Guide`. Use `High-Level Architecture` as context to better understand the desired funtionality you are implementing. 
+- If you see an issue with what the plan is proposing or notice an ambiguity, you must ask clarification questions before proceeding with coding.
+- Whenever you complete a step, you must mark the step as complete in the original plan. Specifically, you must modify the `Step-by-Step Guide` section of `.cursor/setup/plan.md` at the end of completing the steps within a phase by marking the corresponding tasks with `- [x]`. PRINTING THE COMPLETED TASKS IS NOT SUFFICIENT, YOU MUST MARK THE TASKS IN THE ORIGINAL PLAN. 
+- Whenever you complete a `Phase` in `Step-by-Step Guide`, you MUST stop and ask me for feedback before proceeding to the next `Phase`.
+- Always follow the Keep-It-Simple-Stupid paradigm, think of the absolute simplest solution with the simplest implementation that can accomplish the user's requested task.
