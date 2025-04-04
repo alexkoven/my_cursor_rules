@@ -1,0 +1,6 @@
+---
+description: Setting up a new codebase
+globs: 
+alwaysApply: false
+---
+# This file sets cursor rules for building the skeleton of the codebase

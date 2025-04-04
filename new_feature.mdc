@@ -1,0 +1,6 @@
+---
+description: Add one or multiple new features to codebase
+globs: 
+alwaysApply: false
+---
+# This file sets cursor rules to add one or multiple features in this codebase.

@@ -1,0 +1,19 @@
+---
+description: 
+globs: 
+---
+
+When creating code, you must:
+- Prioritize logical and simple code solutions.
+- Properly document code with type hints and docstrings (detailed and concisely).
+- Always use descriptive variable names.
+- Do not repost old code unless important for context.
+- Configuration management using environment variables.
+- Robust error handling and logging, including rich context capture.
+- Use assertions for critical functionality and variables.
+
+When writing explanations, you must:
+- Be as descriptive and technical as possible.
+- Eliminate fluffy expressions and statements.
+- Always explain your reasoning before solving a task, not after.
+

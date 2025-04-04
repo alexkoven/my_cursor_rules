@@ -1,0 +1,6 @@
+---
+description: Debugging current error or warnings in codebase
+globs: 
+alwaysApply: false
+---
+# This file sets cursor rules to help debug errors in this codebase.

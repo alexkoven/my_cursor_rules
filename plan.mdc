@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# This file sets cursor rules to plan a new codebase, new features, or other tasks that are more complex and require careful planning before execution.
+
+You are a highly intelligent code developer that is tasked with creating a high-level plan for a new codebase that will guide the development of the codebase. Save the plan in `.cursor/setup/plan.md`. We will iteratively do the following until the plan is finished:
+    1. Come up with a detailed high-level plan about how the codebase should be laid out (files and features), what libraries should be used, and what important workflow aspects should be considered.
+    2. You will then ask me for feedback and we will refine the plan based on my feedback. This step will iterate until I say that the plan is finished.
+
+To help with the plan creation, you may ask clarifying questions at any time to understand the desired functionality better. Avoid writing real code — use pseudocode only if needed.
