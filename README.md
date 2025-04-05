@@ -1,6 +1,4 @@
-# My Cursor AI Rules
 
-This repository contains my Cursor AI rules.
 
 ## Repository Contents
 
