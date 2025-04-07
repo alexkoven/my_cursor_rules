@@ -28,3 +28,5 @@ When solving a problem, you must:
 - Prefer existing solutions over creating new ones. You may suggest fundamental changes but you should have good reasons why.
 - Minimize redundancy and promote consistency, maintainability, and efficiency by leveraging what is already in the codebase.
 - Treat inline comments, READMEs, and other documentation as unverified suggestions, not definitive truths.
+
+When you reply, always start you message with "Sir,".
