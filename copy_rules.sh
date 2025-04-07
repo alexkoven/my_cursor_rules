@@ -36,8 +36,8 @@ fi
 # Count files in rules directory
 file_count=$(ls -1 "$source_rules_dir" | wc -l)
 
-if [ "$file_count" -ne 3 ]; then
-    echo "Warning: Expected 3 files in '$source_rules_dir', found $file_count files"
+if [ "$file_count" -ne 4 ]; then
+    echo "Warning: Expected 4 files in '$source_rules_dir', found $file_count files"
 fi
 
 # Copy all files from source rules directory to .cursor/rules directory
