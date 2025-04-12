@@ -33,13 +33,6 @@ if [ ! -d "$source_rules_dir" ]; then
     exit 1
 fi
 
-# Count files in rules directory
-file_count=$(ls -1 "$source_rules_dir" | wc -l)
-
-if [ "$file_count" -ne 4 ]; then
-    echo "Warning: Expected 4 files in '$source_rules_dir', found $file_count files"
-fi
-
 # Copy all files from source rules directory to .cursor/rules directory
 cp "$source_rules_dir"/* "$cursor_rules_dir/"
 

@@ -1,5 +1,5 @@
 ---
-description: Rules for debugging and investigating problems.
+description: When working on a single bug that requires more deep analysis
 globs: 
 alwaysApply: false
 ---
