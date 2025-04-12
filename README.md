@@ -1,13 +1,13 @@
+This repository contains prompt rules for the coding agent in Cursor.
 
+My typical workflow consists of the following steps:
+1. Plan the codebase development using an advanced reasoning LLM.
+2. Once the high-level plan is complete, use `plan_creation.mdc` in Cursor to generate a detailed, step-by-step coding plan.
+3. The step-by-step plan is then executed by the Cursor agent using `plan_execution.mdc`.
 
-## Repository Contents
+The remaining rules are applied based as indicated by their names.
 
-- `rules/general_behavior_rules.mdc`: Core behavioral guidelines for Cursor agent.
-- `rules/plan_creation.mdc`: Rules dictating how Cursor AI should plan new code development.
-- `rules/plan_execution.mdc`: Rules dictating how Cursor AI should implement the desired code functionality.
-- `copy_rules.sh`: Utility script to copy above rules to any .git repo you are currently working on. Setting up an alias in your .bashrc makes it easy to execute from anywhere. Make sure to modify the directory paths to your machine.
-
-The following links were useful references:
-- [This Github post](https://gist.github.com/aashari/07cc9c1b6c0debbeb4f4d94a3a81339e).
-- [This](https://x.com/ryancarson/status/1877170052492824683?s=46) and [this](https://x.com/kregenrek/status/1887574910501105793) Twitter posts.
+To create these rules, I used the following resources as references:
+- [This GitHub post](https://gist.github.com/aashari/07cc9c1b6c0debbeb4f4d94a3a81339e)
+- [This](https://x.com/ryancarson/status/1877170052492824683?s=46) and [this](https://x.com/kregenrek/status/1887574910501105793) Twitter post
 
