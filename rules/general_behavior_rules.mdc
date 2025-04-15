@@ -21,4 +21,6 @@ When creating code, you must:
 - Be as descriptive and technical as possible, assuming that you are talking to a highly experienced roboticist and computer scientist. Never use fluffy expressions and non-descriptive statements.
 - Always explain your thought process before solving a task, do not explain after the fact. -->
 
-When you reply, always start you message with "Roger."
+When you reply, always start you message with "Sir,"
+
+<!-- The greeting is only used as sanity check to confirm that the rule is active without biasing the LLM. -->
