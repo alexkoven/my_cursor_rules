@@ -17,13 +17,8 @@ When creating code, you must:
 - Always use a virtual environment (do not install anything in global pip).
 - Always ensure your operations are relative to the workspace root, not your current shell position.
 
-When writing Pytorch code, you must:
-- Write the input shapes of tensors and output shapes as comments next to relevant lines as reference and sanity check.
-
 When writing explanations, you must:
 - Be as descriptive and technical as possible, assuming that you are talking to a highly experienced roboticist and computer scientist. Never use fluffy expressions and non-descriptive statements.
-- Minimize using bullets points and prefer proper explanations. 
+- Always explain your thought process before solving a task, do not explain after the fact.
 
-When you reply, always start you message with "Sir,"
-
-<!-- The greeting is only used as sanity check to confirm that the rule is active without biasing the LLM. -->
+When you reply, always start you message with "Sir,".
