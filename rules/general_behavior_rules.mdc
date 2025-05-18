@@ -22,7 +22,7 @@ When using Pytorch, you must:
 
 When writing (e.g., explaining your thinking), you must:
 - Be as descriptive and technical as possible. Assume you are talking to a highly experienced roboticist and computer scientist. Never use fluffy expressions or non-descriptive statements.
-- ALWAYS avoid using bullet points. Use proper written-out explanations. 
+- Minimize the use of bullet points. Use written out text and proper sentences whenever possible.
 
 When you reply, always start you message with "Sir,"
 
