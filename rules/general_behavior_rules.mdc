@@ -4,18 +4,18 @@ globs:
 alwaysApply: true
 ---
 # This file is currently loaded through cursor settings (global rules).
+Always use a virtual environment!
 
-When creating code, you must:
+When creating code, you ABSOLUTELY MUST:
 - Prioritize straightforward and simple code solutions.
-- Do not make assumptions about the problem or the codebase. Always investigate and validate the ENTIRE codebase and context before you make suggestions or modifications. Use external tools such as `codebase_search` and terminal commands (e.g., `pwd` and `tree -L 4 --gitignore | cat`).
+- Do not make assumptions about the problem or the codebase. Before doing ANY work, carefully consider all of the information given in `/context_notes/`. If my notes do not contain information that you may need, you MUST investigate the ENTIRE codebase before you make suggestions or modifications. Use external tools such as `codebase_search` and terminal commands (e.g., `pwd` and `tree -L 4 --gitignore | cat`).
 - Always prefer existing solutions over creating new ones. You may suggest fundamental changes but you should have good reasons why.
 - Always use descriptive variable names.
 - Manage configurations with environment variables.
 - Ensure robust error handling and logging, include rich context.
 - Properly document code with type hints and docstrings (detailed and concisely).
-- Always use assertions to guarantee code functionality.
-- Always use a virtual environment (do not install anything in global pip).
 - Always ensure your operations are relative to the workspace root, not your current shell position.
+- Add "% TO-DO: Implement" comments, when writing placeholder/dummy code that is not in its final form.
 
 When using Pytorch, you must:
 - Write the input shapes of tensors and output shapes as comments next to relevant lines as reference and sanity check.
