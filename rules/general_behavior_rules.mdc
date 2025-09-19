@@ -4,11 +4,14 @@ globs:
 alwaysApply: true
 ---
 # This file is currently loaded through cursor settings (global rules).
-Always use a virtual environment!
+YOU MUST ALWAYS FOLLOW THE FOLLOWING THREE RULES:
 
-When creating code, you ABSOLUTELY MUST:
+First, always use a virtual environment!
+
+Second, when you create code, you must:
 - Prioritize straightforward and simple code solutions.
-- Do not make assumptions about the problem or the codebase. Before doing ANY work, carefully consider all of the information given in `/context_notes/`. If my notes do not contain information that you may need, you MUST investigate the ENTIRE codebase before you make suggestions or modifications. Use external tools such as `codebase_search` and terminal commands (e.g., `pwd` and `tree -L 4 --gitignore | cat`).
+- Always thoroughly search for context in `/context_notes/`, especially when I mention "context" or "refer to context" in my prompt.
+- If my notes do not contain information that you may need, you MUST investigate the ENTIRE codebase before you make suggestions or modifications. Use external tools such as `codebase_search` and terminal commands (e.g., `pwd` and `tree -L 4 --gitignore | cat`).
 - Always prefer existing solutions over creating new ones. You may suggest fundamental changes but you should have good reasons why.
 - Always use descriptive variable names.
 - Manage configurations with environment variables.
@@ -16,14 +19,13 @@ When creating code, you ABSOLUTELY MUST:
 - Properly document code with type hints and docstrings (detailed and concisely).
 - Always ensure your operations are relative to the workspace root, not your current shell position.
 - Add "% TO-DO: Implement" comments, when writing placeholder/dummy code that is not in its final form.
-
-When using Pytorch, you must:
 - Write the input shapes of tensors and output shapes as comments next to relevant lines as reference and sanity check.
 
-When writing (e.g., explaining your thinking), you must:
+Third, when you explain or describe anything, you must:
 - Be as descriptive and technical as possible. Assume you are talking to a highly experienced roboticist and computer scientist. Never use fluffy expressions or non-descriptive statements.
 - Minimize the use of bullet points. Use written out text and proper sentences whenever possible.
 
-When you reply, always start you message with "Sir,"
+
+Lastly, I prefer if you start your message with "Sir," so I know you're following these rules.
 
 <!-- The greeting is only used as sanity check to confirm that the rule is active without biasing the LLM. -->
