@@ -1,7 +1,5 @@
 ---
-description: 
-globs: 
-alwaysApply: true
+alwaysApply: false
 ---
 # This file is currently loaded through cursor settings (global rules).
 YOU MUST ALWAYS FOLLOW THE FOLLOWING THREE RULES:
